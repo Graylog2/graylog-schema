@@ -1,0 +1,8 @@
+﻿"Field Name", "Example Values", "Field Type", "Notes"
+"windows_authentication_lmpackage_name",,"Keyword","This field is defined only when the windows_authentication_package_name = “NTLM”"
+"windows_authentication_package_name",,"Keyword","Authentication information from Event ID 4624/4625"
+"windows_authentication_process_name",,"Keyword","Authentication information from Event ID 4624/4625"
+"windows_logon_type","integers 0-12","Byte","https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4624"
+"windows_logon_type_description",,"keyword","Description mapped to the logon type field"
+"windows_kerberos_encryption_type",,"keyword","Kerberos ticket encryption types https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4768"
+"windows_kerberos_service_name",,"keyword","Name of service targeted for Kerberos ticket requests"

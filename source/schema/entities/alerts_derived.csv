@@ -1,0 +1,3 @@
+"Field Name", "Example Values", "Field Type", "Notes"
+"alert_severity", "critical, high, medium, low, informational", "keyword", "Severity of Alert"
+"alert_severity_level", "1-5", "byte", "Numeric representation of the severity rating of the source message:  1 = Critical, 2 = High, 3 = Medium, 4 = Low, 5 = Informational"

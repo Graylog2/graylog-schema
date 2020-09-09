@@ -1,0 +1,7 @@
+﻿"Field Name", "Example Values", "Field Type", "Notes"
+"process_command_line","c:\tmp\runme.exe, /tmp/runme","keyword",
+"process_id",2045,"integer",
+"process_integrity_level",,"keyword",
+"process_name",,"keyword",
+"process_path",,"keyword",
+"process_uid",,"keyword",

@@ -1,0 +1,5 @@
+﻿"Field Name", "Example Values", "Field Type", "Notes"
+"…_as_number",,"keyword","Unique number. ASN identify each network on internet (ex, 15169)"
+"…_as_organization_name",,"keyword","Org Name (Graylog)"
+"…_as_isp",,"keyword","ISP of IP address"
+"…_as_domain",,"keyword","Domain of IP address"

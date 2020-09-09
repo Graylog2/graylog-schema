@@ -1,0 +1,2 @@
+"Field Name", "Example Values", "Field Type", "Notes"
+"trace_id", " ", "Keyword", "Unique ID of multiple events belonging together."

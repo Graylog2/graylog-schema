@@ -1,0 +1,8 @@
+﻿"Field Name", "Example Values", "Field Type", "Notes"
+"user_command",,"keyword",
+"user_command_path",,"keyword",
+"user_domain","mycorp.internal","keyword","AD or LDAP domain"
+"user_email","user@mycorp.internal","keyword",
+"user_id",,"keyword","Mapped to SID or UID, etc."
+"user_name",,"keyword (normalized:loweronly)",
+"user_session_id","0x534, 1055","keyword","User logon session identifier"

@@ -1,0 +1,4 @@
+﻿"Field Name", "Example Values", "Field Type", "Notes"
+"http_request_path_analyzed",,"** TBD","Need to review best analyzer configuration for HTTP paths / consider truncation"
+"http_url_analyzed","ftp://ftp01.server.internal/file.tar.gz, https://www.graylog.org, https://www.graylog.org/blog","text/standard","Optionally copied when a URL must be tokenized.    Future: will have to research best analyzer config / consider truncation"
+"http_url_length",9283,"long",

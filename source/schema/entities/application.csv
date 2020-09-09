@@ -1,0 +1,4 @@
+﻿"Field Name", "Example Values", "Field Type", "Notes"
+"application_name", "Facebook, SQL, Salesforce", "keyword", "Name of the application, this can be a layer 7 application name for a web service, the name of a running application process, etc."
+"application_sso_signonmode", " ", "keyword", "For Single Sign-On (SSO) events this is the method used to access the application"
+"application_sso_target_name", " ", "keyword", "For SSO events this is the name of the application being accessed"

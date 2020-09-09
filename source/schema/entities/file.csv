@@ -1,0 +1,7 @@
+﻿"Field Name", "Example Values", "Field Type", "Notes"
+"file_company","Microsoft",,
+"file_compile_time",,"date",
+"file_name","file.zip, file.exe","keyword",
+"file_path","C:\\temp\\file.exe","keyword",
+"file_size",23894713,"long",
+"file_type",,"keyword",

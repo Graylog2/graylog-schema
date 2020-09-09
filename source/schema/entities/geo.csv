@@ -1,0 +1,7 @@
+﻿"Field Name", "Example Values", "Field Type", "Notes"
+"…_geo_city_name",,"keyword","City Name"
+"…_geo_state_name",,"keyword","Washington"
+"…_geo_city_iso_code",,"keyword","Country ISO Code (US, CA)"
+"…_geo_country_iso_code",,"keyword","Country ISO Code (US, CA)"
+"…_geo_country_name",,"keyword","Country Name (USA, Canada)"
+"…_geo_coordinates",,"keyword","Latitude, Longitude Coordinate"

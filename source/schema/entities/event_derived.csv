@@ -1,0 +1,6 @@
+﻿"Field Name", "Example Values", "Field Type", "Notes"
+"event_action","authentication, change, alert, network","keyword","This field indicates what action the event is documenting, it can be an array of values where the event can be used to document multiple things (i.e., IDPS events can be both “alert” and “network”)"
+"event_action_type","credential validation, logon, notice","keyword","This is a sub-type to event_action’s type field."
+"event_outcome","success, failure","keyword",
+"event_severity","critical, high, medium, low, informational","keyword",
+"event_severity_level","1-5","byte","Numeric representation of the severity rating of the source message:  1 = Critical, 2 = High, 3 = Medium, 4 = Low, 5 = Informational"
