@@ -3,8 +3,8 @@ Graylog Information Model Schema
 
 This guide is a reference for the schema used in Graylog Illuminate.  We will keep this updates as changes are made, but if you feel a change should be here, please open a GitHub issue HERE.
 
-How To Use
-==========
+How To Use this Guide
+=====================
 
 Under Contents, we have broken out the GIM Schema into groupings of fields.  For fields referencing a "file", you could go to the :ref:`file`
 
