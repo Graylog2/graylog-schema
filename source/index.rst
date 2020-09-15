@@ -34,11 +34,11 @@ In order to ensure these options are accounted for, a custom analyzer has been i
    :maxdepth: 2
    :caption: Graylog Documentation
 
-Graylog Documentation <http://docs.graylog.org>
+Graylog Documentation http://docs.graylog.org
 
 .. toctree::
    :maxdepth: 2
    :caption: Graylog Homepage
    :hidden:
 
-Graylog <http://www.graylog.org>
+Graylog http://www.graylog.org
