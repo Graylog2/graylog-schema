@@ -1,7 +1,7 @@
 Trace Fields
 ============
 
- - Tracing makes it possible to track events across multiple logs on a unique ID (Microservice, Web App)
+ - Tracing makes it possible to track events across multiple logs on a unique ID (Micro-service, Web App)
 
 .. csv-table:: Trace Fields
    :file: trace.csv

@@ -2,7 +2,7 @@ Alert Fields
 ============
 
  - For messages that are an alert, such as an IDS alert
- - For Vendor alert serverity levels the vendro_event_severity* fields will be used
+ - For Vendor alert severity levels the vendor_event_severity* fields will be used
 
 
 .. csv-table:: Alert Fields
