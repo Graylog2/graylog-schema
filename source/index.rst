@@ -15,7 +15,7 @@ Graylog Template
 ================
 During processing of the logs, data from the logs are inserted into Elasticsearch as "keywords", meaning they are not modified in any way, and stored as-is.  This means the follow data points are unique:
 
-``Administrator``  or ```administrator``
+``Administrator``  or ``administrator``
 
 If you are doing a search in the Graylog UI, you would have to search for both of the terms, or know exactly which one to search for.  Fields like ``user_name`` make sense to have the ability to search without worrying about the case of the word.
 
