@@ -21,3 +21,5 @@ In order to ensure these options are accounted for, a custom analyzer has been i
 If you see any suggestions, or feature requests for this project, please submit a issue [here](https://github.com/Graylog2/graylog-schema/issues).
 
 Happy Logging!
+
+.
