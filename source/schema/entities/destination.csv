@@ -1,12 +1,14 @@
 ﻿"Field Name", "Example Values", "Field Type", "Notes"
 "destination_application_name","facebook, twitter","keyword","Describes the target application"
-"destination_domain","corp.local","keyword (normalized:loweronly)","Destination domain context"
 "destination_bytes_sent",,"long","Network bytes sent by destination to the source. Some sources may present this as source bytes received, bytes received, or similar."
-"destination_hostname",,"keyword (normalized:loweronly)",
+"destination_domain","corp.local","keyword (normalized:loweronly)","Destination domain context"
+"destination_hostname","corpdc01","keyword (normalized:loweronly)",
 "destination_ip","10.1.2.3, fe80:5cc3:11:4::2c","ip","IPv4 and IPv6 addresses"
 "destination_nat_ip","10.1.2.3, fe80:5cc3:11:4::2c","ip",
 "destination_nat_port",2356,"integer",
 "destination_packets_sent",73458324,"long","Number of packets delivered to the destination endpoint"
 "destination_port",80,"integer",
-"destination_vsys_uuid",,"keyword",
-"destination_zone",,"keyword",
+"destination_id","09VX93DD","keyword","Identifying value for the destination such as a serial number"
+"destination_type",,"keyword","Destination device information such as model number"
+"destination_vsys_uuid",,"keyword","Destination virtual system UUID"
+"destination_zone",,"keyword","Network zone for the destination"
