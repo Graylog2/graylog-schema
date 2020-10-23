@@ -1,7 +1,7 @@
 ﻿"Field Name", "Example Values", "Field Type", "Notes"
-"process_command_line","c:\tmp\runme.exe, /tmp/runme","keyword",
-"process_id",2045,"integer",
-"process_integrity_level",,"keyword",
-"process_name",,"keyword",
-"process_path",,"keyword",
-"process_uid",,"keyword",
+"process_command_line","c:\tmp\runme.exe, /tmp/runme","keyword","Full command line of process"
+"process_id","2045,0x3e7","keyword","Process identifier number associated with process"
+"process_integrity_level","medium, high","keyword","Integrity level of process"
+"process_name","whoami, whoami.exe","keyword","File name of executed process"
+"process_path","C:\Windows\system32\, /usr/local/bin","keyword","File path of executed process"
+"process_uid","73123815-5caa-4e39-90dc-d25d4013bf15","keyword","GUID or unique identifier for process that is not the process_id"
