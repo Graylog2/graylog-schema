@@ -1,3 +1,3 @@
 "Field Name", "Example Values", "Field Type", "Notes"
-"service_version", " ", " ", "Version Number of Service/App Running"
-"service_name", " ", " ", "Name of service data collected from (ex. Apache, SSH)"
+"service_version", "1.0.1054", "keyword", "Version Number of service or underlying application"
+"service_name", "graylog-server.service, sshd ,graylog-sidecar", "keyword", "Name of service"
