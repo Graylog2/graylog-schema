@@ -5,7 +5,7 @@
 "vendor_event_description",,"keyword","Vendor defined description of the action with more detail than is included in event_vendor_action"
 "vendor_event_outcome",,"keyword","Vendor-defined result of the action defined in the message"
 "vendor_event_outcome_reason",,"keyword","Vendor-provided text detailing the reason for the vendor-provided outcome"
-"vendor_event_severity",,"integer","Vendor-defined text description of the severity rating"
+"vendor_event_severity",,"keyword","Vendor-defined text description of the severity rating"
 "vendor_event_severity_level",,"integer","Vendor-defined numeric severity rating for this event"
 "vendor_private_ip",,"ip",
 "vendor_private_ipv6",,"ip",
