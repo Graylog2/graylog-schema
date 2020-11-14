@@ -6,4 +6,3 @@
 "host_priority","critical, high, medium, low, informational","keyword","Future: from entity mapping"
 "host_priority_level",2,"byte","Future: from entity mapping: 1 = Critical, 2 = High, 3 = Medium, 4 = Low, 5 = Informational"
 "host_type",,"keyword","Machine “type”"
-"host_type_version",,"keyword","Version of the host_type being described - can be an OS version, etc."

@@ -1,6 +1,8 @@
 ﻿"Field Name", "Example Values", "Field Type", "Notes"
 "vendor_alert_severity","high, medium, low","keyword","When the message is an alert this is the vendor-provided text description of the alert severity"
 "vendor_alert_severity_level","0, 1, 2","integer","When the message is an alert this is the vendor-provided numeric value for the alert severity"
+"vendor_authentication_provider","Where authentication was used against, Active Directory, SSO etc","keyword","Vendor defined action - Quick description of the auth source"
+"vendor_credential_type",,"keyword","Vendor-defined credential type - Password, Token, etc."
 "vendor_event_action","Including, but not limited to: allow, deny, pass, fail","keyword","Vendor defined action - this should be a short, typically one-word, description of what action the event id describing"
 "vendor_event_description",,"keyword","Vendor defined description of the action with more detail than is included in event_vendor_action"
 "vendor_event_outcome",,"keyword","Vendor-defined result of the action defined in the message"

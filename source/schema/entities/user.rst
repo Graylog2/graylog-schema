@@ -1,7 +1,7 @@
 User Fields
 ===========
 
- - Possible Field Prefixes: source_* (e.g., “source_user_name”)
+ - Possible Field Prefixes: source_* (e.g., “source_user_name”) or destination_* (e.g., "destination_user_name")
  - Where messages describe an action taken by one account impacting another account, the actor (account taking the action) will be described by the “source_user_*” fields and the subject (account for which the action was taken) will be described by the “user_*” fields; Examples include:
  
    * Authentication, where the authenticating service account context is provided
