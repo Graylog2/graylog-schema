@@ -2,6 +2,7 @@
 "host_hostname","corpdc01, corpdc01.local,  lab01.corpdomain.com","keyword (normalized:loweronly)","NetBIOS or dns hostname"
 "host_id",,"keyword","Host unique identifier (e.g. SID for Microsoft)"
 "host_ip","10.1.2.3, fe80:5cc3:11:4::2c","ip","IPv4 and IPv6 addresses"
+"host_ipv6","fe80:5cc3:11:4::2c","ip","IPv6 addresses"
 "host_mac","02:a1:f9:c2:d5:04","keyword","MAC address of host, colon-delimited and lower case"
 "host_reference","127.0.0.1, corpdc01, corpdc01.local,  lab01.corpdomain.com","keyword (normalized:loweronly)","Mapped from host_ip or host_hostname in that order - allows a common field to reference for messages that do not provide both (note: CIDR search will not work against this field)"
 "host_type_version",,"keyword","Operating sytem version of host"

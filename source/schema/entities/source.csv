@@ -1,11 +1,15 @@
 ﻿"Field Name", "Example Values", "Field Type", "Notes"
 "source_bytes_sent",29834710,"long","Network bytes sent by source, some sources may present this as source bytes tx, bytes tx or something similar."
+"source_device_model","iPad","keyword","Device Model Name"
+"source_device_vendor","Apple, ASUS","keyword","Device Vendor Name"
 "source_hostname","corpdc01, corpdc01.local, lab01.corpdomain.com","keyword (normalized:loweronly)","NetBIOS or dns hostname, converted to lowercase"
 "source_id","09VX93DD","keyword","Identifying value for the source such as a serial number"
 "source_ip","10.1.2.3, fe80:5cc3:11:4::2c","ip","IPv4 and IPv6 addresses"
 "source_ipv6","fe80:5cc3:11:4::2c","ip","Only IPv6 addresses"
 "source_nat_ip","10.1.2.3, fe80:5cc3:11:4::2c","ip",
 "source_nat_port",2384,"integer",
+"source_os_name","IOS, Android","keyword","Operating System Name"
+"source_os_version","IOS 10.0","keyword","Version number of Operating System"
 "source_packets_sent",23094823,"long","Count of packets sent by source"
 "source_port",45392,"integer","numeric port, 0-65535"
 "source_type",,"keyword","Source device information such as model number"
