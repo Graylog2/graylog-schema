@@ -1,0 +1,4 @@
+﻿"Field Name", "Example Values", "Field Type", "Notes"
+"container_id",,"keyword","Unique container ID"
+"container_name",,"keyword","Container Name"
+"container_namespace",,"keyword","Container's Namespace it is running in"

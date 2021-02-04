@@ -6,6 +6,7 @@
 "event_error_description","ERROR_ACCESS_DENIED, Not Found","keyword","Description of error associated with the current message"
 "event_log_name","security, auth.log","keyword","Reference to log - “Security” “auth.log”, etc."
 "event_observer_hostname",,"keyword/loweronly","Hostname or FQDN of a system such as an IDS or IPS that generates an message (such as an alert) based on inspection of a thing, such as network traffic."
+"event_observer_id","234cd78sc","keyword","Unique ID of the Observer Device, Serial Number, etc"
 "event_observer_ip","10.1.2.3, fe80:5cc3:11:4::2c","ip","IP address of the event observer"
 "event_observer_uid",,"keyword","Unique identifier (such as a serial number or asset ID) associated with the event observer"
 "event_received_time","2020-02-20 08:00:00, 1602080607","date","Date/time that the event was received by the reporting host. Normally applicable to logs relayed by a centralized log server."
