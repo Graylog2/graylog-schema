@@ -32,6 +32,14 @@ In order to ensure these options are accounted for, a custom analyzer has been i
 
 .. toctree::
    :maxdepth: 2
+   :glob:
+   :caption: Category Map
+   :hidden:
+
+   category/*
+
+.. toctree::
+   :maxdepth: 2
    :caption: Graylog Documentation
 
    Graylog Documentation <http://docs.graylog.org>
