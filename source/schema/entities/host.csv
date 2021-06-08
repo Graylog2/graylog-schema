@@ -1,4 +1,5 @@
 ﻿"Field Name", "Example Values", "Field Type", "Notes"
+"host_device","\\Device\\HarddiskVolume2", "keyword", "Identifier for a device (drive, network adapter) connected to a system"
 "host_hostname","corpdc01, corpdc01.local,  lab01.corpdomain.com","keyword (normalized:loweronly)","NetBIOS or dns hostname"
 "host_id",,"keyword","Host unique identifier (e.g. SID for Microsoft)"
 "host_ip","10.1.2.3, fe80:5cc3:11:4::2c","ip","IPv4 and IPv6 addresses"

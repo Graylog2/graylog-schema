@@ -1,3 +1,4 @@
 "Field Name", "Example Values", "Field Type", "Notes"
-"service_version", "1.0.1054", "keyword", "Version Number of service or underlying application"
 "service_name", "graylog-server.service, sshd ,graylog-sidecar", "keyword", "Name of service"
+"service_version", "1.0.1054", "keyword", "Version Number of service or underlying application"
+"service_state", "running, started, stopped", "keyword", "State of service"
