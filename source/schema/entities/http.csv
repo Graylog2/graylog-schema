@@ -13,6 +13,8 @@
 "http_response_code","200, 404, 500","integer","Numeric server response code"
 "http_uri","https://www.graylog.org, https://www.graylog.org/blog, https://www.mycorp.local/workspaces/team#posts","keyword","Full request string; Need to review field length/truncation at 8192 characters (consider utf-8)"
 "http_uri_category","Suspicious, Games","keyword","Categorization of associated web site/URL"
+"http_uri_stem","Default.htm","keyword","The target of the request. For Example:  http://www.test.com/test.jsp?hello=y the URI stem is /test.jsp"
+"http_uri_query","hello=y","keyword","The query the client was trying to perform. Example  http://www.test.com/test.jsp?hello=y the query is hello=y"
 "http_user_agent","Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:74.0) Gecko/20100101 Firefox/74.0)","keyword","User Agent string"
 "http_user_agent_name","Firefox","keyword","Attempted identification of the browser client usually based on user agent analysis"
 "http_user_agent_os","Windows 10","keyword","Operating System of User Agent"
