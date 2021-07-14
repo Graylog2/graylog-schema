@@ -4,7 +4,7 @@
 "vendor_authentication_provider","Active Directory","keyword","Vendor defined action - Quick description of the service providing credential validation"
 "vendor_credential_type","password, token","keyword","Vendor-defined credential type"
 "vendor_event_action","allow, deny, pass, fail","keyword","Vendor defined action - this should be a short, typically one-word, description of what action the event is describing"
-"vendor_event_category","Process Creation, Logon, File Share","keyword","Vendor defined category information"
+"vendor_event_category","Removable Media, Registry, File System","keyword","Vendor defined category of an event"
 "vendor_event_description",,"keyword","Vendor defined description of the action with more detail than is included in vendor_event_action"
 "vendor_event_outcome","block, drop, report, allow, reject","keyword","Vendor-defined result of the action defined in the message"
 "vendor_event_outcome_reason",,"keyword","Vendor-provided text detailing the reason for the vendor-provided action and/or outcome the message is describing"
