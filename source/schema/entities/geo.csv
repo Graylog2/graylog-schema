@@ -1,5 +1,6 @@
 ﻿"Field Name","Example Values","Field Type","Notes"
 "…_geo_city","Hamburg, Houston","keyword","City Name"
+"…_geo_continent","America","keyword","Continent Name"
 "…_geo_country_iso","US, DE, CA","keyword","Country ISO Alpha-2 code"
 "…_geo_country","USA, Canada","keyword","Country Name"
 "…_geo_coordinates","34.1186,-118.3004","keyword","Latitude, Longitude Coordinate"

@@ -2,6 +2,7 @@
 "event_code","4624, 1","keyword","Vendor-provided numeric event defined by the vendor representing the source message type, e.g. EventCode/Event ID for Microsoft"
 "event_created","2020-02-20 08:00:00, 1602080607","date","Date/time that the event was created"
 "event_duration",10293874,"long","Length of time in seconds for the event being described"
+"event_end","2021-03-26T11:25:13.113UTC","date","Date/time that event concluded"
 "event_error_code","0xC00008","keyword","Vendor-provided error code associated with the current message"
 "event_error_description","ERROR_ACCESS_DENIED, Not Found","keyword","Description of error associated with the current message"
 "event_log_name","security, auth.log","keyword","Reference to log - “Security” “auth.log”, etc."

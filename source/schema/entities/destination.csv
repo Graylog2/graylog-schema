@@ -12,7 +12,9 @@
 "destination_os_version","IOS 10.0","keyword","Version number of Operating System"
 "destination_packets_sent",73458324,"long","Number of packets delivered to the destination endpoint"
 "destination_port",80,"integer",
+"destination_region","us-east-1","keyword","Name of region source device is located in"
 "destination_id","09VX93DD","keyword","Identifying value for the destination such as a serial number"
 "destination_type",,"keyword","Destination device information such as model number"
+"destination_vm_name",,"keyword","Virtual system name (not to be confused with the hostname)"
 "destination_vsys_uuid",,"keyword","Destination virtual system UUID"
 "destination_zone",,"keyword","Network zone for the destination"

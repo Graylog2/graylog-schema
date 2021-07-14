@@ -12,6 +12,8 @@
 "source_os_version","IOS 10.0","keyword","Version number of Operating System"
 "source_packets_sent",23094823,"long","Count of packets sent by source"
 "source_port",45392,"integer","numeric port, 0-65535"
+"source_region","us-east-1","keyword","Name of region source device is located in"
 "source_type",,"keyword","Source device information such as model number"
+"source_vm_name",,"keyword","Virtual system name (not to be confused with the hostname)"
 "source_vsys_uuid",,"keyword",
 "source_zone",,"keyword",
