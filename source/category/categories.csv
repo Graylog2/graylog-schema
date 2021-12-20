@@ -138,4 +138,5 @@
 "990501","|network protocol|","|encrypted traffic|","vpn"
 "990600","|network protocol|","|ip assignment|","dhcp"
 "990701","|network protocol|","|ip assignment|","dhcpv6"
+"999998","|network protocol|","|network traffic|","network test message"
 "999999","|network protocol|","|network traffic|","network message"
