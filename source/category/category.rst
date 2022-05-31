@@ -1,7 +1,7 @@
 Graylog Message Categories 
 ============
 
-The below table shows how Graylog is mapping ``gl2_event_type_code`` created in a pipeline, to a normalized category in our Illuminate Content.  Normalized categories allow for dashboards, searches, alert rules to use a common name across all device types utilizing this format.  An example of how this line looks like in the lookup tables is:
+The below table shows how Graylog is mapping ``gim_event_type_code`` created in a pipeline, to a normalized category in our Illuminate Content.  Normalized categories allow for dashboards, searches, alert rules to use a common name across all device types utilizing this format.  An example of how this line looks like in the lookup tables is:
 
 ``"100000","|authentication|","|logon|","logon"``
 

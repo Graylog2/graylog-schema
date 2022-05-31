@@ -1,0 +1,4 @@
+"Field Name", "Example Values", "Field Type", "Notes"
+"gim_event_type","network connection","keyword","A description of the event described in the associated log message."
+"gim_category","endpoint, authentication","keyword","The category the associated log message falls under. Message categories are groupings of messages with some common charactaristics."
+"gim_subcategory","credential validation, process","keyword","A secondary grouping of events under a category where individual events share many common characteristics."
