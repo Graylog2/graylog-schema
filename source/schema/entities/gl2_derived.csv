@@ -1,4 +1,0 @@
-"Field Name", "Example Values", "Field Type", "Notes"
-"gl2_event_type","network connection","keyword","A description of the event described in the associated log message."
-"gl2_category","endpoint, authentication","keyword","The category the associated log message falls under. Message categories are groupings of messages with some common charactaristics."
-"gl2_subcategory","credential validation, process","keyword","A secondary grouping of events under a category where individual events share many common characteristics."
