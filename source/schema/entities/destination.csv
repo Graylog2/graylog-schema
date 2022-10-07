@@ -12,6 +12,7 @@
 "destination_os_version","IOS 10.0","keyword","Version number of Operating System"
 "destination_packets_sent",73458324,"long","Number of packets delivered to the destination endpoint"
 "destination_port",80,"integer",
+"destination_port_iana_name","ssh, ftp","keyword","The IANA-registered service name associated with the network application. Illuminate Core will use this value to define destination_port in events that have destination_ip defined, if destination_port is not already defined 
 "destination_region","us-east-1","keyword","Name of region source device is located in"
 "destination_id","09VX93DD","keyword","Identifying value for the destination such as a serial number"
 "destination_type",,"keyword","Destination device information such as model number"
