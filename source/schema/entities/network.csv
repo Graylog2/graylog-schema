@@ -6,7 +6,8 @@
 "network_community_id",,"keyword","See: https://github.com/corelight/community-id-spec"
 "network_connection_duration","00:23:45","keyword","Duration of time a network connection was established"
 "network_data_bytes",71238,"long","Total bytes of the data payload"
-"network_direction",,"keyword",
+"network_direction","inbound, outbound","keyword","Indicates the direction of the observed network flow. Must be either inbound or outbound, this should be mapped to these values if vendors provide network direction differently
+."
 "network_forwarded_ip","10.1.2.3, fe80:5cc3:11:4::2c","ip",
 "network_header_bytes",71238,"long","Total bytes of packet header information"
 "network_iana_number","6, 17, 41","integer","https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml"
