@@ -1,21 +1,21 @@
-﻿"Field Name", "Example Values", "Field Type", "Notes"
+"Field Name","Example Values","Field Type","Notes"
 "destination_application_name","facebook, twitter","keyword","Describes the target application"
-"destination_bytes_sent",,"long","Network bytes sent by destination to the source. Some sources may present this as source bytes received, bytes received, or similar."
+"destination_bytes_sent","203948","long","Network bytes sent by destination to the source. Some sources may present this as source bytes received, bytes received, or similar."
 "destination_device_model","iPad","keyword","Device Model Name"
 "destination_device_vendor","Apple, ASUS","keyword","Device Vendor Name"
 "destination_domain","corp.local","keyword (normalized:loweronly)","Destination domain context"
 "destination_hostname","corpdc01","keyword (normalized:loweronly)",
 "destination_ip","10.1.2.3, fe80:5cc3:11:4::2c","ip","IPv4 and IPv6 addresses"
-"destination_nat_ip","10.1.2.3, fe80:5cc3:11:4::2c","ip",
-"destination_nat_port",2356,"integer",
+"destination_nat_ip","10.1.2.3, fe80:5cc3:11:4::2c","ip","translated IPv4/IPv6 address assigned by a network device performing the NAT function"
+"destination_nat_port","2356","integer","translated network port assigned by a network device performing the NAT function"
 "destination_os_name","IOS, Android","keyword","Operating System Name"
 "destination_os_version","IOS 10.0","keyword","Version number of Operating System"
 "destination_packets_sent",73458324,"long","Number of packets delivered to the destination endpoint"
-"destination_port",80,"integer",
-"destination_port_iana_name","ssh, ftp","keyword","The IANA-registered service name associated with the network application. Illuminate Core will use this value to define destination_port in events that have destination_ip defined, if destination_port is not already defined 
+"destination_port","80, 443","integer","Service port associated with a network connection port, 0-65535"
+"destination_port_iana_name","ssh, ftp","keyword","The IANA-registered service name associated with the network application. Illuminate Core will use this value to define destination_port in events that have destination_ip defined, if destination_port is not already defined"
 "destination_region","us-east-1","keyword","Name of region source device is located in"
 "destination_id","09VX93DD","keyword","Identifying value for the destination such as a serial number"
 "destination_type",,"keyword","Destination device information such as model number"
 "destination_vm_name",,"keyword","Virtual system name (not to be confused with the hostname)"
-"destination_vsys_uuid",,"keyword","Destination virtual system UUID"
-"destination_zone",,"keyword","Network zone for the destination"
+"destination_vsys_uuid","1f5398c7-4d84-4499-84ee-d5e9246c52f8","keyword","Destination virtual system UUID"
+"destination_zone","internal","keyword","Network zone for the destination"
