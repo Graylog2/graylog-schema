@@ -12,13 +12,16 @@
 "network_icmp_type","echo, time exceeded","keyword","https://www.iana.org/assignments/icmp-parameters/icmp-parameters.xhtml"
 "network_inner",,,"TBD"
 "network_interface_in","gi0/1","keyword/loweronly",
+"network_interface_in_role","lan, wan","keyword/loweronly",
 "network_interface_out","gi0/1","keyword/loweronly",
+"network_interface_out_role","lan, wan","keyword/loweronly",
 "network_ip_version","4, 6","keyword","IPv4 or IPv6"
 "network_name",,,"TBD"
 "network_packets",71238,"long",
 "network_packets_rx",71238,"long","Number of packets sent from the destination to the source"
 "network_packets_tx",71238,"long","Number of packets sent from the source to the destination"
 "network_protocol","ipv4, ipv6, icmp","keyword/loweronly",
+"network_translation_type","dnat, snat, noop","keyword","NAT translation performed"
 "network_transport","udp, tcp","keyword","transport layer protocol of packet/connection"
 "network_tunnel_type","GRE, IPSEC","keyword","tunnel type"
 "network_tunnel_duration",2093847,"long","time in seconds for tunnel duration"
