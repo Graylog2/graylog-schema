@@ -4,7 +4,6 @@
 "network_bytes_rx",71238,"long","Bytes sent from destination to the source"
 "network_bytes_tx",71238,"long","Bytes sent from source to the destination"
 "network_community_id",,"keyword","See: https://github.com/corelight/community-id-spec "
-"network_connection_duration",,"keyword","Duration of a network connection such as TCP in seconds."
 "network_data_bytes",71238,"long","Total bytes of the data payload."
 "network_direction",,"keyword",
 "network_forwarded_ip","10.1.2.3, fe80:5cc3:11:4::2c","ip",
