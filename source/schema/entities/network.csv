@@ -21,6 +21,7 @@
 "network_packets_rx",71238,"long","Number of packets sent from the destination to the source"
 "network_packets_tx",71238,"long","Number of packets sent from the source to the destination"
 "network_protocol","ipv4, ipv6, icmp","keyword/loweronly",
+"network_service","ftp, ssh, smtp","keyword/loweronly","From service name field https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml"
 "network_translation_type","dnat, snat, noop","keyword","NAT translation performed"
 "network_transport","udp, tcp","keyword","transport layer protocol of packet/connection"
 "network_tunnel_type","GRE, IPSEC","keyword","tunnel type"
