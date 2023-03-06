@@ -1,2 +1,3 @@
 "Field Name", "Example Values", "Field Type", "Notes"
 "session_id", " ", "Keyword", "Vendor-provided unique identifier. This can be a random alphanumeric string, a hex value, a GUID value, etc."
+"session_duration", " ", "Keyword", "Duration of a session in seconds such as a Firewall connection, TCP connection, user session,etc."
