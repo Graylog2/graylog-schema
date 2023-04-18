@@ -2,5 +2,5 @@
 "user_category","vip, default account, finance, help desk","keyword","Future: From entity mapping"
 "user_name_mapped","Built in\Administrators","keyword/loweronly","When a user identity or identities is mapped from a source outside of the message itself it is written to this field. This is where Windows well-known SIDs are resolved."
 "user_priority","critical, high, medium, low","keyword","Future: From entity mapping"
-"user_priority_level","1-4","byte","1 = Critical, 2 = High, 3 = Medium, 4 = Low"
+"user_priority_level","1-4","byte","Numeric value representing the priority of the user account, 1 = low, 2 = medium, 3 = high, 4 = critical"
 "user_type","user, computer, well-known sid, group, {any vendor-provided value}","keyword","Experimental field ** This is still being researched - need to look at what winlogbeats/nxlog may provide in terms of SID resolution in different configurations, and consider different technologies use of “types”"
