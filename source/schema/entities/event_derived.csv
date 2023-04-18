@@ -3,4 +3,4 @@
 "event_action_type","credential validation, logon, notice","keyword","This is a sub-type to event_action’s type field."
 "event_outcome","success, failure","keyword",
 "event_severity","critical, high, medium, low, informational","keyword",
-"event_severity_level","1-5","byte","Numeric representation of the severity rating of the source message:  1 = informational, 2 = low, 3 = medium, 4 = high, 5 = critical"
+"event_severity_level","1-5","byte","Numeric representation of the severity rating of the source message:  1 = Critical, 2 = High, 3 = Medium, 4 = Low, 5 = Informational"
