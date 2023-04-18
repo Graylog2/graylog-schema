@@ -1,0 +1,6 @@
+﻿"Field Name", "Example Values", "Field Type", "Notes"
+"hash_md5","4c583e00d47108f809282d5d595f5fb0","keyword","MD5 hash value"
+"hash_sha1","5d4d04eff6aba8467ebd26c43008ab028203be35","keyword","SHA1 hash value"
+"hash_sha256",,"keyword","SHA256 hash value"
+"hash_sha512",,"keyword","SHA512 hash value"
+"hash_imphash","0c2803c4e9a2102c4dc65963dad36cdf","keyword","IMP hash value"
