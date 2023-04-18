@@ -4,6 +4,6 @@
 "destination_geo_*",,,"See: :ref:`geo_* fields <geo-*>`"
 "destination_location_name","Chicago, US,  Datacenter 01,  Bismark - Finance","keyword","Field is derived either from an internal enterprise network definition or the Geo location fields if availble"
 "destination_mac","a0:b4:44:01:a9:d1","keyword","MAC address of host, colon-delimited and lower case"
-"destination_priority","critical, high, medium, low","keyword","Future: from entity mapping"
-"destination_priority_level","1-4","byte","Numeric value representing the priority of the destination device, 1 = low, 2 = medium, 3 = high, 4 = critical"
+"destination_priority","critical, high, medium, low, informational","keyword","Future: from entity mapping"
+"destination_priority_level","1-4","byte","1 = Critical, 2 = High, 3 = Medium, 4 = Low, 5 = Informational"
 "destination_reference","IPv4, IPv6, hostname,fqdn","keyword (normalized:loweronly)","Mapped from source_ip or source_hostname in that order"
