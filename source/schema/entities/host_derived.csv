@@ -6,5 +6,6 @@
 "host_mac","a0b44401a9d1","keyword","MAC address of host, non-delimited and lower case"
 "host_priority","critical, high, medium, low, informational","keyword","Future: from entity mapping"
 "host_priority_level",2,"byte","Future: from entity mapping: 1 = Critical, 2 = High, 3 = Medium, 4 = Low, 5 = Informational"
-"host_type",,"keyword","Machine “type”"
+"host_reference","IPv4,IPv6, hostname,fqdn","keyword (normalized:loweronly)","Mapped automatically from the fields, in order: host_ip, host_hostname, host_vm_name, host_mac"
+"host_type",,"keyword","Host system type"
 "host_type_version",,"keyword","Version of the host_type being described - can be an OS version, etc."

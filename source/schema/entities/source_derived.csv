@@ -6,4 +6,4 @@
 "source_mac","a0:b4:44:01:a9:d1","keyword","MAC address of host, colon-delimited and lower case"
 "source_priority","critical, high, medium, low, informational","keyword","Future: from entity mapping"
 "source_priority_level","1-5","byte","1 = Critical, 2 = High, 3 = Medium, 4 = Low, 5 = Informational"
-"source_reference","IPv4,IPv6, hostname,fqdn","keyword (normalized:loweronly)","Mapped from source_ip or source_hostname in that order"
+"source_reference","IPv4,IPv6, hostname,fqdn","keyword (normalized:loweronly)","Mapped automatically from the fields, in order: source_ip, source_hostname, source_vm_name, source_mac"

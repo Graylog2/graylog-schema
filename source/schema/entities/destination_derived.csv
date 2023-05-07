@@ -6,4 +6,4 @@
 "destination_mac","a0:b4:44:01:a9:d1","keyword","MAC address of host, colon-delimited and lower case"
 "destination_priority","critical, high, medium, low, informational","keyword","Future: from entity mapping"
 "destination_priority_level","1-4","byte","1 = Critical, 2 = High, 3 = Medium, 4 = Low, 5 = Informational"
-"destination_reference","IPv4, IPv6, hostname,fqdn","keyword (normalized:loweronly)","Mapped from source_ip or source_hostname in that order"
+"destination_reference","IPv4, IPv6, hostname,fqdn","keyword (normalized:loweronly)","Mapped automatically from the fields, in order: destination_ip, destination_hostname, destination_target, destination_vm_name, destination_mac"
