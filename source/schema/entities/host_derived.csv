@@ -5,4 +5,5 @@
 "host_location_name","Chicago, US, Datacenter 01, Bismark - Finance","keyword","Field is derived either from an internal enterprise network definition or the Geo location fields if availble"
 "host_priority","critical, high, medium, low","keyword","Future: from entity mapping"
 "host_priority_level",2,"byte","Numeric value representing the priority of the host device, 1 = low, 2 = medium, 3 = high, 4 = critical"
+"host_reference","IPv4,IPv6, hostname,fqdn","keyword (normalized:loweronly)","Automatically mapped from the following fields: host_ip, host_hostname, host_vm_name, host_mac"
 "host_type",,"keyword","Machine “type”"
