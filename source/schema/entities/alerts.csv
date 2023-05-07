@@ -2,5 +2,6 @@
 "alert_definitions_version", "2020.1 , 4092348", "keyword", "Version or identification value that indicates the version a collection of signatures (A/V, etc.) is in use"
 "alert_category", "malware, trojan, ransomware", "keyword", "Future: How do we define this field considering vendors will have their own categories? Or is that not a concern? Possibly movie this to derived fields & set only allowed values"
 "alert_indicator", "malware.exe, http://badsite", "keyword", "A filename, URL, packet snippet or other artifact that is related to the event that caused the alert to be generated."
+"alert_response_level", "0, 1, 2", "byte", "Numeric value representing the type of action taken in response to an alert/threat. 0 = Nothing (allowed, ignored), 1 = prevent (blocked, quarantined), 2 = eradicate (deleted). This allows the use of numeric functions to detect unblocked threats where products may log multiple events for a single threat."
 "alert_signature", " ", "keyword", "Vendor-provided Alert text description"
 "alert_signature_id", " ", "keyword", "Vendor specific unique identifier for alert signature (e.g., 1:1905345:5 for Snort signatures.)"
