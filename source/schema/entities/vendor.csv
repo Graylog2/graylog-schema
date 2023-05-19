@@ -12,6 +12,7 @@
 "vendor_public_ip",,"ip",
 "vendor_public_ipv6",,"ip",
 "vendor_signin_protocol",,"keyword",
+"vendor_subtype","ids, dnsmasq, kernel","keyword","Vendor-defined subtype of log."
 "vendor_threat_suspected",,"keyword",
 "vendor_transaction_id",,"keyword",
 "vendor_transaction_type",,"keyword",
