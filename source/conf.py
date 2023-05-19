@@ -18,11 +18,11 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = 'Graylog (GIM) Schema'
-copyright = '2015-2020 Graylog, Inc'
+copyright = '2015-2023 Graylog, Inc'
 # author = 'Nick Carstensen'
 
 # The full version, including alpha/beta/rc tags
-release = '1.0'
+release = '3.3'
 
 
 # -- General configuration ---------------------------------------------------
