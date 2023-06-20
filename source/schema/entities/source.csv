@@ -6,8 +6,8 @@
 "source_id","09VX93DD","keyword","Identifying value for the source such as a serial number"
 "source_ip","10.1.2.3, fe80:5cc3:11:4::2c","ip","IPv4 and IPv6 addresses"
 "source_ipv6","fe80:5cc3:11:4::2c","ip","Only IPv6 addresses"
-"source_nat_ip","10.1.2.3, fe80:5cc3:11:4::2c","ip",
-"source_nat_port",2384,"integer",
+"source_nat_ip","10.1.2.3, fe80:5cc3:11:4::2c","ip","translated IP address assigned by a network device performing the NAT function"
+"source_nat_port",2384,"integer","translated network port assigned by a network device performing the NAT function"
 "source_os_name","IOS, Android","keyword","Operating System Name"
 "source_os_version","IOS 10.0","keyword","Version number of Operating System"
 "source_packets_sent",23094823,"long","Count of packets sent by source"
