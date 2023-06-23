@@ -1,4 +1,5 @@
 ﻿"Field Name", "Example Values", "Field Type", "Notes"
+"event_action","blocked, allowed, scan_start, scan_end, scan_pause, scan_cancel, scan_resume","keyword","Action that was described in a log such as a firewall log or an antivirus agent log"
 "event_code","4624, 1","long","Numeric event defined by the vendor representing the source message type, e.g. EventCode/Event ID for Microsoft. This field is treated as a numeric value in order to support ranged queries. Any leading 0 values will be removed"
 "event_created","2020-02-20 08:23:15.102, 1602080607","date","Date/time that the event actually occured or when the original event message was created"
 "event_duration",10293874,"long","Length of time, in seconds, for the event being described"
