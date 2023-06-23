@@ -6,7 +6,7 @@
 "event_error_code","0xC00008","keyword","Vendor-provided error code associated with the current message"
 "event_error_description","ERROR_ACCESS_DENIED, Not Found","keyword","Description of error associated with the current message"
 "event_id","0023425, 90EF8","keyword","Vendor-provided identifier representing a message type. This is similar to event_code but is instead mapped as a lateral string value. Ranged searches are not supported but the ID values will not be modified in any way."
-"event_log_name","security, auth.log","keyword","Reference to log - “Security” “auth.log”, etc."
+"event_log_name","security, auth.log","keyword","Reference to log, such as 'Security', 'auth.log', etc. - this differs from vendor_subtype as it refers more to the original source the log was collected from."
 "event_log_path","/var/log/syslog","keyword","Full path of log file source"
 "event_observer_hostname","SERVER01.server01.corp.internal","keyword/loweronly","Hostname or FQDN of a system such as an IDS or IPS that generates an message (such as an alert) based on inspection of a thing, such as network traffic."
 "event_observer_id","234cd78sc","keyword","Unique ID of the Observer Device, Serial Number, etc"
