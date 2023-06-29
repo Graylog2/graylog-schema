@@ -3,7 +3,7 @@
 "vendor_alert_severity_level","4, 3, 2, 1","integer","When the message is an alert this is the vendor-provided numeric value for the alert severity"
 "vendor_authentication_provider","Active Directory","keyword","Vendor defined action - Quick description of the service providing credential validation"
 "vendor_credential_type","password, token","keyword","Vendor-defined credential type"
-"vendor_event_action","allow, deny, pass, fail","keyword","Vendor defined action - this should be a short, typically one-word, description of what action the event is describing"
+"vendor_event_action","allow, deny, pass, fail","keyword","Vendor defined action - this should be a short, typically one-word, description of what action the event is describing. The value is to be used verbatim, including case, from the source log."
 "vendor_event_category","Removable Media, Registry, File System","keyword","Vendor defined category of an event"
 "vendor_event_description",,"keyword","Vendor defined description of the action with more detail than is included in vendor_event_action"
 "vendor_event_outcome","block, drop, report, allow, reject","keyword","Vendor-defined result of the action defined in the message"
@@ -15,7 +15,7 @@
 "vendor_public_ip",,"ip",
 "vendor_public_ipv6",,"ip",
 "vendor_signin_protocol",,"keyword",
-"vendor_subtype","ids, dnsmasq, kernel","keyword","Vendor-defined subtype of log"
+"vendor_subtype","ids, dnsmasq, kernel, threat","keyword","Vendor-defined subtype of log - this differs from event_log_name as it refers more to the subject or category of log message."
 "vendor_threat_suspected",,"keyword",
 "vendor_transaction_id",,"keyword",
 "vendor_transaction_type",,"keyword",

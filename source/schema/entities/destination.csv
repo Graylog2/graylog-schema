@@ -6,7 +6,7 @@
 "destination_domain","corp.local","keyword (normalized:loweronly)","Destination domain context"
 "destination_hostname","corpdc01","keyword (normalized:loweronly)",
 "destination_ip","10.1.2.3, fe80:5cc3:11:4::2c","ip","IPv4 and IPv6 addresses"
-"destination_nat_ip","10.1.2.3, fe80:5cc3:11:4::2c","ip","translated IPv4/IPv6 address assigned by a network device performing the NAT function"
+"destination_nat_ip","10.1.2.3, fe80:5cc3:11:4::2c","ip","translated IP address assigned by a network device performing the NAT function"
 "destination_nat_port","2356","integer","translated network port assigned by a network device performing the NAT function"
 "destination_os_name","IOS, Android","keyword","Operating System Name"
 "destination_os_version","IOS 10.0","keyword","Version number of Operating System"
