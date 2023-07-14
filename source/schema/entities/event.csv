@@ -1,7 +1,7 @@
 ﻿"Field Name","Example Values","Field Type","Notes"
 "event_action","blocked, allowed, started, completed, stopped, disabled, enabled, modified, deleted, paused, resumed","keyword","Action that was described in a log such as a firewall log or an antivirus agent log. The value shoud match one of the example values given."
 "event_code","4624, 1","long","Numeric event defined by the vendor representing the source message type, e.g. EventCode/Event ID for Microsoft. This field is treated as a numeric value in order to support ranged queries. Any leading 0 values will be removed"
-"event_component","scan, quarantine, agent, signature","keyword","The component of a system. This is different than service_name in that the component may not be died to a specific running process but may be related to the functionality of part of a system or operational activity of a system."
+"event_component","scan, quarantine, agent, signature","keyword","The component of a system. This is different than service_name in that the component may not be associated with a specific running process but may be related to the functionality of part of a system or operational activity of a system."
 "event_created","2020-02-20 08:23:15.102, 1602080607","date","Date/time that the event actually occured or when the original event message was created"
 "event_duration",10293874,"long","Length of time, in seconds, for the event being described"
 "event_end","2021-03-26T11:25:13.113","date","Date/time that event described in the log message had concluded, usually associated with an event that has a duration."
