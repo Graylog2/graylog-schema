@@ -17,5 +17,5 @@
 "wifi_frame_type_value","0","keyword","Sometimes called fc_type."
 "wifi_frame_type_desciption","management","keyword","Sometimes called fc_type. Other options are management, control, extension and data frame type."
 "wifi_frame_subtype_value","0x08","keyword","Usually a number like 0x08 or 1000."
-"wifi_frame_subtype_desc","beacon","The description of a code, e.g. 1000 is for beacon."
+"wifi_frame_subtype_desc","beacon","keyword","The description of a code, e.g. 1000 is for beacon."
 "wifi_virtual_access_point","My_access_point","keyword","The access point's name."
