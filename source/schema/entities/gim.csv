@@ -1,0 +1,2 @@
+"Field Name", "Example Values", "Field Type", "Notes"
+"gim_event_type_code","100000","long","This field is assigned during the normalization process. Based on this field messages will have category, subcategory, and type fields applied."
