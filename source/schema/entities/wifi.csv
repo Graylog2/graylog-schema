@@ -13,7 +13,7 @@
 "wifi_signal_to_noise_level","-90","long","The signal to noise level."
 "wifi_signal_to_noise_level_unit","dbm","keyword","The unit for signal to noise ratio level."
 "wifi_data_rate","400","long","The used data rate."
-"wifi_data_rate_unit","Mbps","The used data rate unit, Mbps,Mbp/s or Gbps,Gpb/s."
+"wifi_data_rate_unit","Mbps","keyword","The used data rate unit, Mbps,Mbp/s or Gbps,Gpb/s."
 "wifi_frame_type_value","0","keyword","Sometimes called fc_type."
 "wifi_frame_type_desciption","management","keyword","Sometimes called fc_type. Other options are management, control, extension and data frame type."
 "wifi_frame_subtype_value","0x08","keyword","Usually a number like 0x08 or 1000."
