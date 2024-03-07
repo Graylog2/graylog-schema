@@ -17,7 +17,7 @@
 "event_received_time","2020-02-20 08:00:00, 1602080607","date","Date/time that the event was received by the reporting host. Normally applicable to logs relayed by a centralized log server."
 "event_repeat_count","5, 3, 9185","long","Count of times a message has been repeated"
 "event_reporter","SERVER01.server01.corp.internal","keyword","Hostname or IP for system that delivered the message to Graylog - a WEC server, syslog collector, etc."
-"event_source","LAPTOP01,laptop01.corp.internal","keyword","**This field is deprecated and will be removed in Illuminate 6.0.0.** Hostname or IP of source system that generated the event"
+"event_source","LAPTOP01,laptop01.corp.internal","keyword","Hostname or IP of source system that generated the event"
 "event_source_api_version",,"keyword","API version of source where logs are collected via API"
 "event_source_product","windows, linux, okta","keyword","System responsible for generating the event, e.g. “windows”, “okta”, etc."
 "event_start","2020-02-20 08:00:00, 1602080607","date","Beginning time of an event described in a log message, usually associated with an event that has a duration."
