@@ -47,6 +47,8 @@
 120200,"","network","network.open","network connection initiated"
 120300,"","network","network.close","network connection ended"
 120500,"","network","network.flow","flow record"
+120600,"","network","network.icmp_request","icmp_request"
+120700,"","network","network.icmp_reply","icmp_reply"
 129999,"","network","network.default","network message"
 130000,"","messaging","messaging.email","email sent"
 130500,"","messaging","messaging.email","email blocked"
