@@ -22,7 +22,7 @@ copyright = '2015-2023 Graylog, Inc'
 # author = 'Nick Carstensen'
 
 # The full version, including alpha/beta/rc tags
-release = '4.2'
+release = '5.0'
 
 
 # -- General configuration ---------------------------------------------------

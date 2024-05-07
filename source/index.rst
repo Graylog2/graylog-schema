@@ -9,7 +9,7 @@ Welcome to the Graylog Information Model (GIM).  The Schema is broken down into 
 
 `Graylog Illuminate <http://www.graylog.com/>`_ will utilize this schema for all the content it will be creating.  This guide will the be official reference, and should be used if you are creating your own content, and want it to match with our content we create.
 
-If you take any log source, and put the user name into a field called ``user_name``, then any dashboard or alert created with Illuminate will work as well..
+If you take any log source, and put the user name into a field called ``user_name``, then any dashboard or alert created with Illuminate will work as well.
 
 Graylog Template
 ================
