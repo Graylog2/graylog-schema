@@ -1,1 +1,6 @@
-
+"Field Name", "Example Values", "Field Type", "Notes"
+"smtp_response_code","250","integer","Note:"
+"smtp_response_enhanced_code","2.0.0","keyword","Note:"
+"smtp_response_enhanced_class_code","2","integer","Note:"
+"smtp_response_enhanced_subject_code","0","integer","Note:"
+"smtp_response_enhanced _status_code","0.0","keyword","Note:"
