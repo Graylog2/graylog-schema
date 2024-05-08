@@ -1,8 +1,4 @@
 ﻿"Field Name", "Example Values", "Field Type", "Notes"
-"email_attachment_file_name","attachment.exe","keyword",
-"email_attachmentments_file_size","1024","long",
-"email_direction","inbound, outbound, lateral","keyword","Indicates the direction of the observed email flow. Must be either inbound, outbound or lateral, this should be mapped to these values if vendors provide network direction differently ."
-"email_local_id","123456789A","keyword","Unique identifier given to the email by the source that created the event."
 "email_message_id",,"keyword",
 "email_subject","RE: FWD: Testing","keyword",
 
@@ -13,3 +9,9 @@
 "email_user_source/sender","stefan@graylog.com","keyword","Per RFC 5322, specifies the address responsible for the actual transmission/sender of the message."
 "email_user_destination","stefan@graylog.com","keyword","The email address of recipient/destination"
 "email_xmailer","spambot","keyword","The tool that created and sent the email"
+"email_size","234","long","The size of an email in bytes"
+
+"email_attachment_file_name","attachment.exe","keyword",
+"email_attachmentments_file_size","1024","long",
+"email_direction","inbound, outbound, lateral","keyword","Indicates the direction of the observed email flow. Must be either inbound, outbound or lateral, this should be mapped to these values if vendors provide network direction differently ."
+"email_local_id","123456789A","keyword","Unique identifier given to the email by the source that created the event."
