@@ -4,3 +4,7 @@
 "smtp_response_enhanced_class_code","2","integer","Note:"
 "smtp_response_enhanced_subject_code","0","integer","Note:"
 "smtp_response_enhanced _status_code","0.0","keyword","Note:"
+
+
+"smtp_to","john@graylog.com","keyword",,"The value of the SMTP MAIL TO command.
+"smtp_from,"stefan@graylog.com","keyword","The value of the SMTP MAIL FROM command."
