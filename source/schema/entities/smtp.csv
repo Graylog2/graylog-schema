@@ -1,5 +1,5 @@
 "Field Name", "Example Values","Field Type","Notes"
-"smtp_from,"stefan@graylog.com","keyword","The value of the SMTP MAIL FROM command."
+"smtp_from","stefan@graylog.com","keyword","The value of the SMTP MAIL FROM command."
 "smtp_response_code","250","integer","SMTP response status code, see RFC 5321. These codes are issued by a server in response to a client's request made to the server."
 "smtp_response_enhanced_code","2.0.0","keyword","Enhanced status code, see RFC 3463"
 "smtp_response_enhanced_class_code","2","integer","The first digit of the Enhanced status code (class), see RFC 3463"
