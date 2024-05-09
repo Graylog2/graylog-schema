@@ -1,26 +1,18 @@
 ﻿"Field Name", "Example Values", "Field Type", "Notes"
-"email_message_id",,"keyword",
-"email_subject","RE: FWD: Testing","keyword",
-
-// sender vs source, destination vs receiver vs recipient
+email_attachment_file_name","attachment.exe","array","The file name(s) of an attachment."
+"email_attachment_file_size","1024","long","The size in bytes of the email, including attachments."
 "email_bcc","stefan@graylog.com","keyword","The email address of BCC recipient/destination."
 "email_cc","stefan@graylog.com","keyword","The email address of CC recipient/destination."
-"email_reply_to","stefan@graylog.com","keyword","The address that replies should be delivered to based on the value in the RFC 5322 Reply-To: header."
-"email_from","stefan@graylog.com","keyword","Per RFC 5322, specifies the address responsible for the actual transmission/sender of the message."
-"email_to","stefan@graylog.com","keyword","The email address of recipient/destination"
-"email_smtp_to","john@graylog.com","keyword",,"The value of the SMTP MAIL TO command.
-"email_smtp_from,"stefan@graylog.com","keyword","The value of the SMTP MAIL FROM command."
-"email_xmailer","spambot","keyword","The tool that created and sent the email"
-"email_size","234","long","The size of an email in bytes"
-"email_attachment_file_name","attachment.exe","keyword",
-"email_attachment_file_size","1024","long",
-"email_direction","inbound, outbound, lateral","keyword","Indicates the direction of the observed email flow. Must be either inbound, outbound or lateral, this should be mapped to these values if vendors provide network direction differently ."
-"email_uid","123456789A","keyword","The email unique identifier, often provided by the vendor."// vendor_
-"email_message_uid"," ","keyword","Unique identifier given to the email by the source that created the event. Email header message"
 "email_delivered_to","joe@example.com","keyword","The Delivered-To email header field."
+"email_direction","inbound, outbound, lateral","keyword","Indicates the direction of the observed email flow. Must be either inbound, outbound or lateral, this should be mapped to these values if vendors provide network direction differently ."
+"email_from","stefan@graylog.com","keyword","Per RFC 5322, specifies the address responsible for the actual transmission/sender of the message."
+"email_message_id",,"keyword","The globally-unique message identifier."
+"email_message_uid"," ","keyword","Unique identifier given to the email by the source that created the event. Email header message"
 "email_raw_header"," ","keyword","The email authentication header."
+"email_reply_to","stefan@graylog.com","keyword","The address that replies should be delivered to based on the value in the RFC 5322 Reply-To: header."
+"email_size","234","long","The size of an email in bytes."
+"email_subject","RE: FWD: Testing","keyword","The email subject."
+"email_to","stefan@graylog.com","keyword","The email address of recipient/destination"
+"email_uid","123456789A","keyword","The email unique identifier, often provided by the vendor."
 "email_x_originating_ip","192.168.2.3","array","The X-Originating-IP header identifying the emails originating IP address(es)."
-
-email_recipient_count
-
-sort and remove, splunk
+"email_xmailer","spambot","keyword","Tool that created and sent the email."
