@@ -4,5 +4,5 @@
 "smtp_response_enhanced_code","2.0.0","keyword","Enhanced status code, see RFC 3463"
 "smtp_response_enhanced_class_code","2","integer","The first digit of the Enhanced status code (class), see RFC 3463"
 "smtp_response_enhanced_subject_code","0","integer","The second digit of the Enhanced status code (subject), see RFC 3463"
-"smtp_response_enhanced _status_code","0.0","keyword","The second and third digit of the Enhanced status code, see RFC 3463"
+"smtp_response_enhanced_status_code","0.0","keyword","The second and third digit of the Enhanced status code, see RFC 3463"
 "smtp_to","john@graylog.com","keyword","The value of the SMTP MAIL TO command."
