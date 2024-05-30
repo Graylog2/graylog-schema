@@ -1,6 +1,6 @@
 ﻿"Field Name","Example Values","Field Type","Notes"
 "email_attachment_file_name","attachment.exe","array","The file name(s) of an attachment."
-"email_attachment_file_size","1024","long","The size in bytes of the email, including attachments."
+"email_attachment_file_size","1024","long","The size in bytes of the attachments."
 "email_bcc","stefan@graylog.com","keyword","The email address of BCC recipient/destination."
 "email_cc","stefan@graylog.com","keyword","The email address of CC recipient/destination."
 "email_delivered_to","joe@example.com","keyword","The Delivered-To email header field."
