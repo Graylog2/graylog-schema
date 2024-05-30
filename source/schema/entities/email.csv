@@ -4,7 +4,7 @@
 "email_bcc","stefan@graylog.com","keyword","The email address of BCC recipient/destination."
 "email_cc","stefan@graylog.com","keyword","The email address of CC recipient/destination."
 "email_delivered_to","joe@example.com","keyword","The Delivered-To email header field."
-"email_direction","inbound, outbound, lateral","keyword","Indicates the direction of the observed email flow. Must be either inbound, outbound or lateral, this should be mapped to these values if vendors provide network direction differently ."
+"email_direction","inbound, outbound, lateral","keyword","Indicates the direction of the observed email flow. Must be either inbound, outbound or lateral, this should be mapped to these values if vendors provide network direction differently."
 "email_from","stefan@graylog.com","keyword","Per RFC 5322, specifies the address responsible for the actual transmission/sender of the message."
 "email_message_id",<CAD78=PvAb+iLQ6x+221MGa-22@mail.gmail.com>,"keyword","The globally-unique message identifier."
 "email_raw_header"," ","keyword","The email authentication header."
