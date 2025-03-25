@@ -1,5 +1,6 @@
 "Field Name", "Example Values", "Field Type", "Notes"
 "wifi_ssid","Guest_Access","keyword","The name of the broadcasted network."
+"wifi_bssid","A1:B2:C3:D4:E5:F6","keyword","The name of the Basic Service Set Identifier."
 "wifi_frequency","2416","long","The f0 frequency for the selected band or channel frequency."
 "wifi_frequency_unit","MHz","keyword","The f0 frequency unit for the selected band or channel frequency."
 "wifi_channel","3","long","WiFi channels are smaller bands within WiFi frequency bands that are used by wireless networks to send and receive data."
